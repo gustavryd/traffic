@@ -1,0 +1,7 @@
+include:
+  - repo: gh:bluetext-io/bluetext
+  - modules/nyc-traffic-viz
+tools:
+  default:
+    run:
+      - tool: "nyc-traffic-viz"
